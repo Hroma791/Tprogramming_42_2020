@@ -1,0 +1,80 @@
+.container {
+  width: 510px;
+  margin: auto;
+  padding: 20px;
+}
+
+.dark-container {
+  background: no-repeat center url("blackback50opac.png");
+}
+
+.site-header {
+  min-width: 480px;
+  height: 300px;
+  margin-bottom: 130px;
+  padding-top: 30px;
+  background: #847462 no-repeat top url("732a891857.png");
+  background-size: cover;
+  color: palegoldenrod;
+}
+
+.table-main {
+    width: 100%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+   }
+
+.table-dark {
+    width: 100%; /* Ширина таблицы */
+    background: #142336; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+   }
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 640px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Verdana", "Tahoma", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #eae9f2;
+}
+
+.theme-button {
+  position: relative;
+  margin-top: 20px;
+  padding-top: 7px;
+  padding-right: 16px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  font-size: 12px;
+  border-radius: 2px;
+  background-color: transparent;
+  cursor: pointer;
+  color: goldenrod;
+  border: 1px solid goldenrod;
+}
+
+.theme-button:active {
+  opacity: 0.8;
+}
+
+.theme-button:focus,
+.theme-button:hover {
+  color: #ffffff;
+  background-color: goldenrod;
+}
+.theme-button:focus {
+  outline-color: palegoldenrod;
+}
+
+.dark-theme {
+  color: #f2f2f2;
+  background-color: #17161a;
+}
+
